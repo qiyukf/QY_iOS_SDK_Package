@@ -35,6 +35,11 @@
  *  isGoods YES代表商品
  */
 - (void)showGoodsOrOrderView:(BOOL)isGoods viewController:(QYSessionViewController *)sessionViewController;
+
+/**
+ *  告知理想，开启定位
+ */
+- (void)startLoactionService:(long long)sessionId;
 @end
 
 
@@ -200,6 +205,10 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 @property (nonatomic, assign) BOOL isForbiddenInput;
 /** 以下为客服相关接口 **/
 
+/**
+ *  上报经纬度
+ */
+- (void)reportLocationLatitude:(double)latitude longitude:(double)longitude sessionId:(long long)sessionId;
 /**
  *  请求人工客服
  */
