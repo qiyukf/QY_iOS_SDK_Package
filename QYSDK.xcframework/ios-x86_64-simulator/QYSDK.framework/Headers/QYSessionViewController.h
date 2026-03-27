@@ -306,6 +306,25 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 - (void)presentWorkOrderViewControllerWithTemplateID:(long long)templateID;
 
 
+/** 以下为消息管理接口 **/
+
+/**
+ *  当前是否处于会话中（包含人工会话和机器人会话）
+ *  YES：当前存在活跃的在线会话；NO：无会话或会话已结束
+ */
+@property (nonatomic, assign, readonly) BOOL isInSession;
+
+/**
+ *  删除当前用户的所有消息（本地 + 服务端）
+ *
+ *  @discussion 调用后会：
+ *  1. 向服务端发送 cmd=11137（dType=1，全部删除）通知；
+ *  2. 删除本地数据库中当前会话的全部消息；
+ *  3. 刷新 tableView。
+ *  @param completion 完成回调，success 为 YES 表示本地删除成功，error 为服务端通知发送失败时的错误信息（不影响本地删除结果）
+ */
+- (void)deleteAllMessagesWithCompletion:(nullable QYCompletion)completion;
+
 /** 以下为自定义视图相关接口 **/
 
 /**
