@@ -22,6 +22,16 @@
 
 
 /**
+ *  订单阶段类型
+ */
+typedef NS_ENUM(NSUInteger, QYOrderStageType) {
+    QYOrderStageTypePreSale = 10000,       //! 售前
+    QYOrderStageTypePreDelivery = 20000,   //! 发货前
+    QYOrderStageTypeAfterDelivery = 30000, //! 发货后
+    QYOrderStageTypeAfterSale = 40000,     //! 售后
+};
+
+/**
  *  商品信息类：QYCommodityInfo
  */
 @interface QYCommodityInfo : NSObject
@@ -111,6 +121,11 @@
 @property (nonatomic, strong) UIColor *actionTextColor;
 
 /**
+ *  发送按钮字体大小
+ */
+@property (nonatomic, assign) CGFloat actionFontSize;
+
+/**
  *  一般用户不需要填这个字段，这个字段仅供特定用户使用
  */
 @property (nonatomic, copy) NSString *ext;
@@ -148,9 +163,24 @@
 
 /**
  *  支持商品卡片带参数给一触即达
- *
  */
 @property (nonatomic, copy) NSString *intent;
+
+/**
+ *  卡片附加信息，信息不展示在UI中，长度限制为100字符，超过自动截断
+ */
+@property (nonatomic, copy) NSString *info;
+
+/**
+ *  指定机器人接待的大模型 AgentId
+ */
+@property (nonatomic, assign) long long agentId;
+
+/**
+ *  订单状态
+ */
+@property (nonatomic, assign) QYOrderStageType orderStageType;
+
 @end
 
 

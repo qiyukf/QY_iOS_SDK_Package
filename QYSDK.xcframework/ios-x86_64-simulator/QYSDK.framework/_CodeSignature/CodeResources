@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		KFWHrAMLePHmOX1bIHIoEJGPtK0=
+		95EhgCRdnAeG/im9tK0oYe/6i+k=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/QYMessageCardModel.h</key>
 		<data>
-		N42vNdeRo9u/RwC/E7wHiKXWFwA=
+		eaeeasY9KQslWd8lywIpqdLkFgo=
 		</data>
 		<key>Headers/QYMessageInfo.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fwOdfqa2SXbWVrKPWpifwmdEYXo=
+		Nrx8CENHuL29lTNhikOsV9GicEY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KFWHrAMLePHmOX1bIHIoEJGPtK0=
+			95EhgCRdnAeG/im9tK0oYe/6i+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			IBYSzMykbLeCS8jS1AJxw8CqgoClLECIvl24dD3PCs4=
+			T8DyPh7ugYsMz3krbySs1iX2lIxNLj0vGZKIBxSt7us=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
@@ -324,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N42vNdeRo9u/RwC/E7wHiKXWFwA=
+			eaeeasY9KQslWd8lywIpqdLkFgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ji2D05o4Y9BLyGNfh6LJJkY6+mZ9QTged7m2buFSUxI=
+			dDt61GKPiV9MfSeOi6AtCqdVbeY/gSe/QuoQ5HOZkjA=
 			</data>
 		</dict>
 		<key>Headers/QYMessageInfo.h</key>
