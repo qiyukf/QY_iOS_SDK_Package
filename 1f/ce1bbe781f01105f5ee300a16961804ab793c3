@@ -1,0 +1,15 @@
+QYSDK.xcframework/ios-arm64/dSYMs/QYSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/QYSDK.yml
+  ai_agent 3,5-17,44-53,82-19507
+QYSDK.xcframework/ios-arm64/dSYMs/QYSDK.framework.dSYM/Contents/Info.plist
+  ai_agent 16,18
+QYSDK.xcframework/ios-x86_64-simulator/QYSDK.framework/_CodeSignature/CodeResources
+  ai_agent 149
+QY_iOS_SDK_Package.podspec
+  ai_agent 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "1fce1bbe781f01105f5ee300a16961804ab793c3",
+  "prompts": {}
+}
