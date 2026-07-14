@@ -180,7 +180,7 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 @property (nonatomic, assign) NSInteger messagePageLimit;
 
 /**
- *  是否收起历史消息，默认为NO；若设置为YES，进入会话界面时若需创建新会话，则收起历史消息
+ *  是否收起历史消息，默认为YES；若设置为YES，进入会话界面时若需创建新会话，则收起历史消息
  */
 @property (nonatomic, assign) BOOL hideHistoryMessages;
 
@@ -396,5 +396,4 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 - (void)showEvaluationAlert:(BOOL)isOpenAlert openEvaluation:(BOOL)isOpenEvaluation complete:(QYCompletion)complete;
 
 @end
-
 

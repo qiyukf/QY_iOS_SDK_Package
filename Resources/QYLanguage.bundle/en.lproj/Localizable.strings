@@ -357,3 +357,5 @@
 "QYButtonStringOrderNeedAppendInfo" = "Supplementary information required";
 "QYButtonStringOrderNeedAppendTitle" = "You currently need to supplement the following information";
 "QYMessageStringFailForSensitiveWords" = "Message contains sensitive words";
+"QYMessageStringToolSyncInputPlaceholder" = "Smart diagnosis in progress. Input is temporarily unavailable.";
+"QYMessageStringToolSyncDiagnostic" = "Diagnosis in progress. Estimated wait time: 2 minutes";

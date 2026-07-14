@@ -355,3 +355,5 @@
 "QYButtonStringOrderNeedAppendInfo" = "需補充信息";
 "QYButtonStringOrderNeedAppendTitle" = "您當前需補充回復如下信息";
 "QYMessageStringFailForSensitiveWords" = "訊息包含敏感詞";
+"QYMessageStringToolSyncInputPlaceholder" = "智能診斷中，輸入框暫不可用。";
+"QYMessageStringToolSyncDiagnostic" = "全力診斷中，預計等待2分鐘";

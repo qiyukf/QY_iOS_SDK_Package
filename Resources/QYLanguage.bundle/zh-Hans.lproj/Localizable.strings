@@ -252,6 +252,8 @@
 "QYToastStringVideoNoSupportPreset" = "当前设备不支持该预设 = %@";
 "QYMessageStringFailForProhibitedWords" = "消息包含违禁词“";
 "QYMessageStringFailForSensitiveWords" = "消息包含敏感词";
+"QYMessageStringToolSyncInputPlaceholder" = "智能诊断中，输入框暂不可用。";
+"QYMessageStringToolSyncDiagnostic" = "全力诊断中，预计等待2分钟";
 "QYMessageStringSilentTransfer" = "静默转接";
 "QYStringOrderType" = "工单类型";
 "QYToastStringAudioToTextError" = "语音转文字失败";
