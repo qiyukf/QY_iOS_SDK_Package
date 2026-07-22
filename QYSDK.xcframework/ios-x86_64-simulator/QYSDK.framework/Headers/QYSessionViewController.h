@@ -317,11 +317,12 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 /**
  *  删除当前用户的所有消息（本地 + 服务端）
  *
- *  @discussion 调用后会：
- *  1. 向服务端发送 cmd=11137（dType=1，全部删除）通知；
- *  2. 删除本地数据库中当前会话的全部消息；
- *  3. 刷新 tableView。
- *  @param completion 完成回调，success 为 YES 表示本地删除成功，error 为服务端通知发送失败时的错误信息（不影响本地删除结果）
+ *  @discussion 仅在当前不处于会话中或排队中时可调用。调用后会：
+ *  1. 向服务端发送 cmd=20100（dType=1，全部删除）通知；
+ *  2. 服务端通知成功后，删除本地数据库中当前会话的全部消息；
+ *  3. 删除当前最近会话，使 getSessionList 不再返回对应的 QYSessionInfo；
+ *  4. 刷新 tableView。
+ *  @param completion 完成回调；success 为 YES 表示清理成功，success 为 NO 时 error 返回失败原因，且保留本地消息和最近会话
  */
 - (void)deleteAllMessagesWithCompletion:(nullable QYCompletion)completion;
 
