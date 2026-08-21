@@ -101,7 +101,7 @@ typedef NS_ENUM(NSUInteger, QYCardStageType) {
 
 /**
  * @brief 浮动卡片消息内容列表。
- * @details 共 2 种模板类型，可重复添加；展示效果与 `cards` 不同，为浮动样式。支持类型：操作按钮、商品。
+ * @details 共 3 种模板类型，可重复添加；展示效果与 `cards` 不同，为浮动样式。支持类型：操作按钮、商品、订单。
  * @note 请按官网字段规范构造各模板数据项。
  * @see 官网字段说明
  */
