@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "الرجاء ملء التعليقات والملاحظات للتقييم";
 "QYToastStringRemindSuccess" = "نجح استعجال الطلب";
 "QYMessageStringQueryMsg" = "[استعلام الرسالة]";
+"QYMessageStringRobotMsg" = "[رسالة الروبوت]";
 "QYMessageStringVideoText" = "أرسل فيديو";
 "QYStringOrderNumber" = "رقم الطلب: %@";
 "QYStringGoodsNumber" = "رقم المنتج：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "المعلومات التكميلية المطلوبة";
 "QYButtonStringOrderNeedAppendTitle" = "تحتاج حاليًا إلى استكمال المعلومات التالية";
 "QYMessageStringFailForSensitiveWords" = "تحتوي الرسالة على كلمات حساسة";
+"QYButtonStringQuoteReply" = "رد";
+"QYMessageStringQuotedMessageRecalled" = "تم سحب الرسالة";
+"QYToastStringQuoteMessageUnavailable" = "تعذر العثور على الرسالة الأصلية";

@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "Please leave your comments";
 "QYToastStringRemindSuccess" = "Reminded successfully";
 "QYMessageStringQueryMsg" = "[Search Message]";
+"QYMessageStringRobotMsg" = "[Robot message]";
 "QYMessageStringVideoText" = "Has sent a video";
 "QYStringOrderNumber" = "Order number: %@";
 "QYStringGoodsNumber" = "Item ID：%@";
@@ -360,3 +361,6 @@
 "QYMessageStringToolSyncInputPlaceholder" = "Smart diagnosis in progress. Input is temporarily unavailable.";
 "QYMessageStringToolSyncDiagnostic" = "Diagnosis in progress. Estimated wait time: 2 minutes";
 "QYToastStringDeleteMessageSuccess" = "Messages deleted successfully";
+"QYButtonStringQuoteReply" = "Reply";
+"QYMessageStringQuotedMessageRecalled" = "Message recalled";
+"QYToastStringQuoteMessageUnavailable" = "Unable to find the original message";

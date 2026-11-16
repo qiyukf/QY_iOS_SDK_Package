@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "Заполните примечание к оценке";
 "QYToastStringRemindSuccess" = "Ускорение выполнения заказа осуществлено успешно";
 "QYMessageStringQueryMsg" = "[Сообщение запроса]";
+"QYMessageStringRobotMsg" = "[Сообщение робота]";
 "QYMessageStringVideoText" = "Пришло видео";
 "QYStringOrderNumber" = "Номер заказа:%@";
 "QYStringGoodsNumber" = "Код товара：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "Требуется дополнительная информация";
 "QYButtonStringOrderNeedAppendTitle" = "В настоящее время вам необходимо дополнить следующую информацию";
 "QYMessageStringFailForSensitiveWords" = "Сообщение содержит деликатные слова";
+"QYButtonStringQuoteReply" = "Ответ";
+"QYMessageStringQuotedMessageRecalled" = "Сообщение отозвано";
+"QYToastStringQuoteMessageUnavailable" = "Не удалось найти исходное сообщение";

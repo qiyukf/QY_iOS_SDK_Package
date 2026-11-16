@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "Vui lòng viết ghi chú đánh giá";
 "QYToastStringRemindSuccess" = "Giục đơn hàng thành công";
 "QYMessageStringQueryMsg" = "[Tra cứu thông tin]";
+"QYMessageStringRobotMsg" = "[Tin nhắn robot]";
 "QYMessageStringVideoText" = "Đã gửi một đoạn video";
 "QYStringOrderNumber" = "Mã số đơn hàng: %@";
 "QYStringGoodsNumber" = "ID sản phẩm：%@";
@@ -356,3 +357,6 @@
 "QYButtonStringOrderNeedAppendTitle" = "Hiện tại bạn cần bổ sung các thông tin sau";
 "QYMessageStringFailForSensitiveWords" = "Tin nhắn chứa từ ngữ nhạy cảm";
 
+"QYButtonStringQuoteReply" = "Trả lời";
+"QYMessageStringQuotedMessageRecalled" = "Tin nhắn đã được thu hồi";
+"QYToastStringQuoteMessageUnavailable" = "Không tìm thấy tin nhắn gốc";

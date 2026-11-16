@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "평가 비고를 입력해 주세요";
 "QYToastStringRemindSuccess" = "독촉 알림 보내기 성공";
 "QYMessageStringQueryMsg" = "[정보 조회]";
+"QYMessageStringRobotMsg" = "[봇 메시지]";
 "QYMessageStringVideoText" = "영상을 보냈습니다";
 "QYStringOrderNumber" = "오더번호: %@";
 "QYStringGoodsNumber" = "상품ID：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "추가 정보 필요";
 "QYButtonStringOrderNeedAppendTitle" = "현재 다음 정보를 보완해야 합니다";
 "QYMessageStringFailForSensitiveWords" = "메시지에 민감한 단어가 포함되어 있습니다.";
+"QYButtonStringQuoteReply" = "답장";
+"QYMessageStringQuotedMessageRecalled" = "메시지가 회수되었습니다";
+"QYToastStringQuoteMessageUnavailable" = "원본 메시지를 찾을 수 없습니다";

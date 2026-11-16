@@ -222,6 +222,7 @@
 "QYStringFillEvaluationRemark" = "请填写评价备注";
 "QYToastStringRemindSuccess" = "催单成功";
 "QYMessageStringQueryMsg" = "[查询消息]";
+"QYMessageStringRobotMsg" = "[机器人消息]";
 "QYMessageStringVideoText" = "发来了一段视频";
 "QYStringOrderNumber" = "订单编号：%@";
 "QYStringGoodsNumber" = "商品ID：%@";
@@ -366,3 +367,6 @@
 "QYButtonStringOrderAppendInfo" = "补充信息";
 "QYButtonStringOrderNeedAppendInfo" = "需补充信息";
 "QYButtonStringOrderNeedAppendTitle" = "您当前需补充回复如下信息";
+"QYButtonStringQuoteReply" = "引用回复";
+"QYMessageStringQuotedMessageRecalled" = "消息已撤回";
+"QYToastStringQuoteMessageUnavailable" = "无法找到原消息";

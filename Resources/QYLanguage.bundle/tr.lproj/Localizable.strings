@@ -213,6 +213,7 @@
 "QYStringFillEvaluationRemark" = "Lütfen değerlendirme notunu doldurun";
 "QYToastStringRemindSuccess" = "Hatırlatma başarılı";
 "QYMessageStringQueryMsg" = "[Mesaj sorgula]";
+"QYMessageStringRobotMsg" = "[Bot mesajı]";
 "QYMessageStringVideoText" = "Bir video gönderildi";
 "QYStringOrderNumber" = "Sipariş numarası: %@";
 "QYTitleStringWorkOrderDetail" = "İş emri ayrıntıları";
@@ -360,3 +361,6 @@
 
 
 
+"QYButtonStringQuoteReply" = "Yanıt";
+"QYMessageStringQuotedMessageRecalled" = "Mesaj geri çekildi";
+"QYToastStringQuoteMessageUnavailable" = "Orijinal mesaj bulunamadı";

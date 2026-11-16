@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "กรุณากรอกความคิดเห็นการประเมินผล";
 "QYToastStringRemindSuccess" = "เตือนความจำสำเร็จ";
 "QYMessageStringQueryMsg" = "[สอบถามข้อความ]";
+"QYMessageStringRobotMsg" = "[ข้อความจากบอต]";
 "QYMessageStringVideoText" = "ส่งวิดีโอ";
 "QYStringOrderNumber" = "เลขที่ใบสั่งซื้อ：%@";
 "QYStringGoodsNumber" = "รหัสสินค้า：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "ต้องการข้อมูลเพิ่มเติม";
 "QYButtonStringOrderNeedAppendTitle" = "ขณะนี้คุณจำเป็นต้องเสริมข้อมูลต่อไปนี้";
 "QYMessageStringFailForSensitiveWords" = "ข้อความมีคำที่ละเอียดอ่อน";
+"QYButtonStringQuoteReply" = "ตอบ";
+"QYMessageStringQuotedMessageRecalled" = "ข้อความถูกเรียกคืนแล้ว";
+"QYToastStringQuoteMessageUnavailable" = "ไม่พบข้อความต้นฉบับ";

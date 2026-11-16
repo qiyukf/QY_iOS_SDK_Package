@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "Pakipunan ang mga puna sa pagsusuri";
 "QYToastStringRemindSuccess" = "Matagumpay ang paalala";
 "QYMessageStringQueryMsg" = "[Mensahe ng Pagtatanong]";
+"QYMessageStringRobotMsg" = "[Mensahe ng bot]";
 "QYMessageStringVideoText" = "Nagpadala ng video";
 "QYStringOrderNumber" = "Num. ng Order: %@";
 "QYStringGoodsNumber" = "Produkto id：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "Kinakailangan ang karagdagang impormasyon";
 "QYButtonStringOrderNeedAppendTitle" = "Kasalukuyang kailangan mong dagdagan ang sumusunod na impormasyon";
 "QYMessageStringFailForSensitiveWords" = "Ang mensahe ay naglalaman ng mga sensitibong salita";
+"QYButtonStringQuoteReply" = "Sumagot";
+"QYMessageStringQuotedMessageRecalled" = "Binawi ang mensahe";
+"QYToastStringQuoteMessageUnavailable" = "Hindi mahanap ang orihinal na mensahe";

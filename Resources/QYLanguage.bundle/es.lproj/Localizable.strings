@@ -215,6 +215,7 @@
 "QYStringFillEvaluationRemark" = "Rellena las notas de valoración";
 "QYToastStringRemindSuccess" = "Recordado con éxito";
 "QYMessageStringQueryMsg" = "[Buscar mensaje]";
+"QYMessageStringRobotMsg" = "[Mensaje del bot]";
 "QYMessageStringVideoText" = "ha enviado un vídeo";
 "QYStringOrderNumber" = "Número del pedido: %@";
 "QYTitleStringWorkOrderDetail" = "Detalles del tique";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "Información complementaria requerida";
 "QYButtonStringOrderNeedAppendTitle" = "Actualmente necesita complementar la siguiente información";
 "QYMessageStringFailForSensitiveWords" = "El mensaje contiene palabras sensibles";
+"QYButtonStringQuoteReply" = "Responder";
+"QYMessageStringQuotedMessageRecalled" = "Mensaje retirado";
+"QYToastStringQuoteMessageUnavailable" = "No se puede encontrar el mensaje original";

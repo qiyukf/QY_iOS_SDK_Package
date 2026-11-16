@@ -212,6 +212,7 @@
 "QYStringFillEvaluationRemark" = "評価の備考欄に記入してください";
 "QYToastStringRemindSuccess" = "催促完了しました";
 "QYMessageStringQueryMsg" = "[検索メッセージ]";
+"QYMessageStringRobotMsg" = "[ボットメッセージ]";
 "QYMessageStringVideoText" = "より動画が送信されました";
 "QYStringOrderNumber" = "注文番号：%@";
 "QYStringGoodsNumber" = "商品ID：%@";
@@ -355,3 +356,6 @@
 "QYButtonStringOrderNeedAppendInfo" = "補足情報が必要です";
 "QYButtonStringOrderNeedAppendTitle" = "現在、次の情報を補足する必要があります";
 "QYMessageStringFailForSensitiveWords" = "メッセージにデリケートな言葉が含まれています";
+"QYButtonStringQuoteReply" = "返信";
+"QYMessageStringQuotedMessageRecalled" = "メッセージは撤回されました";
+"QYToastStringQuoteMessageUnavailable" = "元のメッセージが見つかりません";

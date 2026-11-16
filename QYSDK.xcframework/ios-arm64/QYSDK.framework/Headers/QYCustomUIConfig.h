@@ -68,7 +68,7 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
 //聊天背景设置
 
 /**
- *  消息tableview的背景图片
+ *  聊天区域的背景图片，显示于消息列表和透明快捷入口后方
  */
 @property (nonatomic, strong) UIImageView *sessionBackground;
 
