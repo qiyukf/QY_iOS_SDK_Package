@@ -166,6 +166,8 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 
 /**
  *  输入区域上方工具栏内的按钮点击回调
+ *  服务端下发的机器人快捷链接优先使用此回调。未设置时，链接交由 QYCustomActionConfig 的 linkClickBlock 处理。
+ *  linkClickBlock 未设置或返回 QYLinkClickActionPolicyOpen 时，由七鱼内置 WebView 打开。
  */
 @property (nonatomic, copy) QYButtonClickBlock buttonClickBlock;
 

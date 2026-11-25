@@ -290,7 +290,7 @@ typedef NS_ENUM(NSInteger, QYMessagesLoadState) {
 @property (nonatomic, strong) UIColor *imagePickerColor;
 
 /**
- *  进入聊天界面是否自动弹出键盘，默认为YES
+ *  进入聊天界面是否自动弹出键盘，默认为 NO。
  */
 @property (nonatomic, assign) BOOL autoShowKeyboard;
 

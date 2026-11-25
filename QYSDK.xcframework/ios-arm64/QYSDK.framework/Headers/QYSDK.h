@@ -12,7 +12,7 @@
 #import "QYHeaders.h"
 
 
-@protocol NIMCustomAttachmentCoding;
+@protocol QYKFNIMCustomAttachmentCoding;
 
 /**
  *  完成回调
@@ -323,7 +323,7 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *  @discussion 若使用自定义消息类型，需注册自定义消息解析器，将透传过来的消息反序列化成上层应用可识别的对象
  *  @discussion 使用融合SDK时，若需解析自定义消息，请使用该接口设置；若仍使用云信提供接口，则会覆盖七鱼解析器造成部分客服消息无法解析
  */
-- (void)registerCustomDecoderForFusion:(id<NIMCustomAttachmentCoding>)decoder;
+- (void)registerCustomDecoderForFusion:(id<QYKFNIMCustomAttachmentCoding>)decoder;
 
 /**
  再次请求后台样式

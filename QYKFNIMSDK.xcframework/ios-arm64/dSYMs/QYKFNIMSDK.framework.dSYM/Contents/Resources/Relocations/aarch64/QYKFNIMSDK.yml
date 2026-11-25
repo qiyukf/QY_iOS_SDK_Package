@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/admin/qykf_sdk_li/ios_sdk/DerivedData/Build/Products/Release-iphoneos/QYKFNIMSDK.framework/QYKFNIMSDK'
+relocations:     []
+...
