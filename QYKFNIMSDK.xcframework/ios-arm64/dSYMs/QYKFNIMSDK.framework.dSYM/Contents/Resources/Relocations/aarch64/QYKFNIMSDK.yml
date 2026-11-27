@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/qykf_sdk_li/ios_sdk/DerivedData/Build/Products/Release-iphoneos/QYKFNIMSDK.framework/QYKFNIMSDK'
+binary-path:     "/Users/zhongzhida/Documents/SDK/项目代码/qysdk_visitor/私有化/ios_sdk/QYProduct/QY_NIMSDK/.nim-build.DRnNvz/DerivedData/Build/Products/Release-iphoneos/QYKFNIMSDK.framework/QYKFNIMSDK"
 relocations:     []
 ...

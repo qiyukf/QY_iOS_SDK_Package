@@ -1,11 +1,11 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/admin/qykf_sdk_li/ios_sdk/DerivedData/Build/Products/Release-iphonesimulator/QYKFNIMSDK.framework/QYKFNIMSDK'
+binary-path:     "/Users/zhongzhida/Documents/SDK/项目代码/qysdk_visitor/私有化/ios_sdk/QYProduct/QY_NIMSDK/.nim-build.DRnNvz/DerivedData/Build/Products/Release-iphonesimulator/QYKFNIMSDK.framework/QYKFNIMSDK"
 relocations:
   - { offset: 0x27, size: 0x8, addend: 0x0, symName: _frameInfoGenerator, symObjAddr: 0x0, symBinAddr: 0x46422C, symSize: 0xE24 }
-  - { offset: 0x44, size: 0x8, addend: 0x0, symName: _frameInfo1_2048, symObjAddr: 0x1724, symBinAddr: 0x69A4C0, symSize: 0x0 }
-  - { offset: 0x10E, size: 0x8, addend: 0x0, symName: _frameInfo2_2048, symObjAddr: 0x1768, symBinAddr: 0x69A504, symSize: 0x0 }
-  - { offset: 0x123, size: 0x8, addend: 0x0, symName: _frameInfo4_2048, symObjAddr: 0x17AC, symBinAddr: 0x69A548, symSize: 0x0 }
+  - { offset: 0x44, size: 0x8, addend: 0x0, symName: _frameInfo1_2048, symObjAddr: 0x1724, symBinAddr: 0x69D4C0, symSize: 0x0 }
+  - { offset: 0x10E, size: 0x8, addend: 0x0, symName: _frameInfo2_2048, symObjAddr: 0x1768, symBinAddr: 0x69D504, symSize: 0x0 }
+  - { offset: 0x123, size: 0x8, addend: 0x0, symName: _frameInfo4_2048, symObjAddr: 0x17AC, symBinAddr: 0x69D548, symSize: 0x0 }
   - { offset: 0x675, size: 0x8, addend: 0x0, symName: _frameInfoGenerator, symObjAddr: 0x0, symBinAddr: 0x46422C, symSize: 0xE24 }
   - { offset: 0xE04, size: 0x8, addend: 0x0, symName: _fillFramePre, symObjAddr: 0xE24, symBinAddr: 0x465050, symSize: 0xED }
   - { offset: 0xE0C, size: 0x8, addend: 0x0, symName: _fillFramePost, symObjAddr: 0xF11, symBinAddr: 0x46513D, symSize: 0x11E }
@@ -238,11 +238,11 @@ relocations:
   - { offset: 0x102F9, size: 0x8, addend: 0x0, symName: _EstimateScaleFactors, symObjAddr: 0x1C6, symBinAddr: 0x46E54C, symSize: 0x1B91 }
   - { offset: 0x10AC5, size: 0x8, addend: 0x0, symName: _qmfInverseFilteringDetector, symObjAddr: 0x0, symBinAddr: 0x4700DD, symSize: 0x5DD }
   - { offset: 0x10B12, size: 0x8, addend: 0x0, symName: _fir_2, symObjAddr: 0x940, symBinAddr: 0x4E8A00, symSize: 0x0 }
-  - { offset: 0x10B37, size: 0x8, addend: 0x0, symName: _detectorParamsAACSpeech, symObjAddr: 0x740, symBinAddr: 0x60A520, symSize: 0x0 }
+  - { offset: 0x10B37, size: 0x8, addend: 0x0, symName: _detectorParamsAACSpeech, symObjAddr: 0x740, symBinAddr: 0x60D520, symSize: 0x0 }
   - { offset: 0x10C3D, size: 0x8, addend: 0x0, symName: _quantStepsSbr, symObjAddr: 0x960, symBinAddr: 0x4E8A20, symSize: 0x0 }
   - { offset: 0x10C5F, size: 0x8, addend: 0x0, symName: _quantStepsOrig, symObjAddr: 0x970, symBinAddr: 0x4E8A30, symSize: 0x0 }
   - { offset: 0x10C74, size: 0x8, addend: 0x0, symName: _nrgBorders, symObjAddr: 0x980, symBinAddr: 0x4E8A40, symSize: 0x0 }
-  - { offset: 0x10C89, size: 0x8, addend: 0x0, symName: _detectorParamsAAC, symObjAddr: 0x840, symBinAddr: 0x60A620, symSize: 0x0 }
+  - { offset: 0x10C89, size: 0x8, addend: 0x0, symName: _detectorParamsAAC, symObjAddr: 0x840, symBinAddr: 0x60D620, symSize: 0x0 }
   - { offset: 0x10F4D, size: 0x8, addend: 0x0, symName: _qmfInverseFilteringDetector, symObjAddr: 0x0, symBinAddr: 0x4700DD, symSize: 0x5DD }
   - { offset: 0x10F55, size: 0x8, addend: 0x0, symName: _createInvFiltDetector, symObjAddr: 0x5DD, symBinAddr: 0x4706BA, symSize: 0xBB }
   - { offset: 0x1126B, size: 0x8, addend: 0x0, symName: _createInvFiltDetector, symObjAddr: 0x5DD, symBinAddr: 0x4706BA, symSize: 0xBB }
@@ -327,7 +327,7 @@ relocations:
   - { offset: 0x1586B, size: 0x8, addend: 0x0, symName: _fft16, symObjAddr: 0x1856, symBinAddr: 0x474D2D, symSize: 0x7E2 }
   - { offset: 0x158D6, size: 0x8, addend: 0x0, symName: _fft16, symObjAddr: 0x1856, symBinAddr: 0x474D2D, symSize: 0x7E2 }
   - { offset: 0x15E1F, size: 0x8, addend: 0x0, symName: _InitPsyConfiguration, symObjAddr: 0x0, symBinAddr: 0x47550F, symSize: 0x16F }
-  - { offset: 0x15E3C, size: 0x8, addend: 0x0, symName: _sfbInfoTab, symObjAddr: 0x910, symBinAddr: 0x60A720, symSize: 0x0 }
+  - { offset: 0x15E3C, size: 0x8, addend: 0x0, symName: _sfbInfoTab, symObjAddr: 0x910, symBinAddr: 0x60D720, symSize: 0x0 }
   - { offset: 0x15EE8, size: 0x8, addend: 0x0, symName: _BARC_THR_QUIET, symObjAddr: 0xA00, symBinAddr: 0x4E8BC0, symSize: 0x0 }
   - { offset: 0x15F52, size: 0x8, addend: 0x0, symName: _InitPsyConfiguration, symObjAddr: 0x0, symBinAddr: 0x47550F, symSize: 0x16F }
   - { offset: 0x15F5A, size: 0x8, addend: 0x0, symName: _initSfbTable, symObjAddr: 0x16F, symBinAddr: 0x47567E, symSize: 0xA0 }
@@ -413,7 +413,7 @@ relocations:
   - { offset: 0x17516, size: 0x8, addend: 0x0, symName: _p_32000_stereo_long, symObjAddr: 0x5450, symBinAddr: 0x4EE160, symSize: 0x0 }
   - { offset: 0x1752D, size: 0x8, addend: 0x0, symName: _p_32000_stereo_short, symObjAddr: 0x5460, symBinAddr: 0x4EE170, symSize: 0x0 }
   - { offset: 0x17544, size: 0x8, addend: 0x0, symName: _tnsMaxBandsTab, symObjAddr: 0x5470, symBinAddr: 0x4EE180, symSize: 0x0 }
-  - { offset: 0x175A7, size: 0x8, addend: 0x0, symName: _tnsInfoTab, symObjAddr: 0x54E0, symBinAddr: 0x60A7A0, symSize: 0x0 }
+  - { offset: 0x175A7, size: 0x8, addend: 0x0, symName: _tnsInfoTab, symObjAddr: 0x54E0, symBinAddr: 0x60D7A0, symSize: 0x0 }
   - { offset: 0x17689, size: 0x8, addend: 0x0, symName: _prepareSfbPe, symObjAddr: 0x0, symBinAddr: 0x4760D5, symSize: 0x131 }
   - { offset: 0x176E3, size: 0x8, addend: 0x0, symName: _prepareSfbPe, symObjAddr: 0x0, symBinAddr: 0x4760D5, symSize: 0x131 }
   - { offset: 0x176EB, size: 0x8, addend: 0x0, symName: _calcSfbPe, symObjAddr: 0x131, symBinAddr: 0x476206, symSize: 0x199 }
@@ -431,7 +431,7 @@ relocations:
   - { offset: 0x18224, size: 0x8, addend: 0x0, symName: _InitElementBits, symObjAddr: 0x3B, symBinAddr: 0x4767AB, symSize: 0x76 }
   - { offset: 0x182CB, size: 0x8, addend: 0x0, symName: _InitElementBits, symObjAddr: 0x3B, symBinAddr: 0x4767AB, symSize: 0x76 }
   - { offset: 0x183D6, size: 0x8, addend: 0x0, symName: _bitCount, symObjAddr: 0x0, symBinAddr: 0x476824, symSize: 0x2F }
-  - { offset: 0x183F4, size: 0x8, addend: 0x0, symName: _countFuncTable, symObjAddr: 0x1650, symBinAddr: 0x60A840, symSize: 0x0 }
+  - { offset: 0x183F4, size: 0x8, addend: 0x0, symName: _countFuncTable, symObjAddr: 0x1650, symBinAddr: 0x60D840, symSize: 0x0 }
   - { offset: 0x18498, size: 0x8, addend: 0x0, symName: _bitCount, symObjAddr: 0x0, symBinAddr: 0x476824, symSize: 0x2F }
   - { offset: 0x184A0, size: 0x8, addend: 0x0, symName: _codeValues, symObjAddr: 0x2F, symBinAddr: 0x476853, symSize: 0x9B1 }
   - { offset: 0x184FA, size: 0x8, addend: 0x0, symName: _codeValues, symObjAddr: 0x2F, symBinAddr: 0x476853, symSize: 0x9B1 }
@@ -455,7 +455,7 @@ relocations:
   - { offset: 0x18D1F, size: 0x8, addend: 0x0, symName: _WritePsData, symObjAddr: 0x0, symBinAddr: 0x477E19, symSize: 0x541 }
   - { offset: 0x18D30, size: 0x8, addend: 0x0, symName: _WritePsData, symObjAddr: 0x0, symBinAddr: 0x477E19, symSize: 0x541 }
   - { offset: 0x18D38, size: 0x8, addend: 0x0, symName: _AppendPsBS, symObjAddr: 0x541, symBinAddr: 0x47835A, symSize: 0x1F1 }
-  - { offset: 0x18D5D, size: 0x8, addend: 0x0, symName: _WritePsData.initheader, symObjAddr: 0x2C50, symBinAddr: 0x69BDA0, symSize: 0x0 }
+  - { offset: 0x18D5D, size: 0x8, addend: 0x0, symName: _WritePsData.initheader, symObjAddr: 0x2C50, symBinAddr: 0x69EDA0, symSize: 0x0 }
   - { offset: 0x19044, size: 0x8, addend: 0x0, symName: _AppendPsBS, symObjAddr: 0x541, symBinAddr: 0x47835A, symSize: 0x1F1 }
   - { offset: 0x1944A, size: 0x8, addend: 0x0, symName: _bits2pe, symObjAddr: 0x0, symBinAddr: 0x47854B, symSize: 0xE }
   - { offset: 0x194C1, size: 0x8, addend: 0x0, symName: _bits2pe, symObjAddr: 0x0, symBinAddr: 0x47854B, symSize: 0xE }
